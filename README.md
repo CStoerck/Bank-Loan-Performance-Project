@@ -87,6 +87,10 @@ This analysis has some limitations:
 - **Assumptions**: Certain assumptions were made during data cleaning and analysis that may impact the results.
 - **External Factors**: Economic conditions and external factors were not considered, which may influence loan performance.
 
+### Contact
+
+Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/codystoerck/).
+
 ---
 
 [**Link to visualization**](https://public.tableau.com/app/profile/cody.stoerck/viz/BankLoanAnalysisDashboard_17091319168180/SUMMARY)
