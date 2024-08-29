@@ -15,6 +15,9 @@
 ## Project Overview
 This project analyzes a bank's loan portfolio to gain insights into key financial metrics and assess the risk associated with different loans. The primary KPIs analyzed are total loan applications, total funded amount, total received amount, average interest rate, and average debt-to-income ratio (DTI). The analysis aims to provide actionable recommendations for improving loan management and decision-making.
 
+[<img src="bank-loan-dashboard-preview.JPG">](https://public.tableau.com/app/profile/cody.stoerck/viz/BankLoanAnalysisDashboard_17091319168180/SUMMARY)
+Click image to view visualization
+
 ## Data Sources
 The dataset used in this project includes the following columns:
 
@@ -85,4 +88,6 @@ This analysis has some limitations:
 - **External Factors**: Economic conditions and external factors were not considered, which may influence loan performance.
 
 ---
+
+[**Link to visualization**](https://public.tableau.com/app/profile/cody.stoerck/viz/BankLoanAnalysisDashboard_17091319168180/SUMMARY)
 
