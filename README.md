@@ -1,5 +1,17 @@
 # Bank Loan Analysis Portfolio Project
 
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Data Sources](#data-sources)
+- [Tools Used](#tools-used)
+- [Data Cleaning and Preparation](#data-cleaning-and-preparation)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Analysis](#data-analysis)
+- [Results and Findings](#results-and-findings)
+- [Recommendations](#recommendations)
+- [Limitations](#limitations)
+
 ## Project Overview
 This project analyzes a bank's loan portfolio to gain insights into key financial metrics and assess the risk associated with different loans. The primary KPIs analyzed are total loan applications, total funded amount, total received amount, average interest rate, and average debt-to-income ratio (DTI). The analysis aims to provide actionable recommendations for improving loan management and decision-making.
 
@@ -33,14 +45,14 @@ The dataset used in this project includes the following columns:
 - **SQL**: For querying and managing the data.
 - **Tableau**: For data visualization and dashboard creation.
 
-## Data Cleaning/Preparation
+## Data Cleaning and Preparation
 The dataset underwent several cleaning steps to ensure accuracy and consistency:
 - **Duplicate Removal**: Identified and removed duplicate records.
 - **Missing Values**: Handled missing data by using appropriate imputation techniques or removing incomplete records.
 - **Standardization**: Standardized categorical variables and converted dates to a consistent format.
 - **Derived Metrics**: Calculated additional metrics such as total funded amount and total received amount.
 
-## Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis
 During the EDA phase, the data was thoroughly examined to identify patterns, trends, and relationships between variables:
 - **Distribution Analysis**: Analyzed the distribution of loan amounts, interest rates, and DTI ratios.
 - **Correlation Analysis**: Investigated the correlation between variables like employment length, home ownership, and grade on loan status.
@@ -54,7 +66,7 @@ The analysis focused on evaluating key performance indicators:
 - **Average Interest Rate**: Computed the mean interest rate across all loans.
 - **Average Debt-to-Income Ratio (DTI)**: Calculated the average DTI ratio for all borrowers.
 
-## Results/Findings
+## Results and Findings
 Key insights from the analysis include:
 - **High-Risk Loans**: Loans with higher interest rates and lower grades showed a higher default rate.
 - **Geographical Trends**: Certain states exhibited higher loan application volumes and lower default rates, indicating regional differences in loan performance.
