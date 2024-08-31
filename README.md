@@ -5,12 +5,14 @@
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
 - [Tools Used](#tools-used)
-- [Data Cleaning and Preparation](#data-cleaning-and-preparation)
-- [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Data Analysis](#data-analysis)
+- [Methodology](#methodology)
+  - [Data Cleaning and Preparation](#data-cleaning-and-preparation)
+  - [Exploratory Data Analysis](#exploratory-data-analysis)
+  - [Data Analysis](#data-analysis)
 - [Results and Findings](#results-and-findings)
 - [Recommendations](#recommendations)
 - [Limitations](#limitations)
+- [Contact](#contact)
 
 ## Project Overview
 This project analyzes a bank's loan portfolio to gain insights into key financial metrics and assess the risk associated with different loans. The primary KPIs analyzed are total loan applications, total funded amount, total received amount, average interest rate, and average debt-to-income ratio (DTI). The analysis aims to provide actionable recommendations for improving loan management and decision-making.
@@ -48,6 +50,7 @@ The dataset used in this project includes the following columns:
 - **SQL**: For querying and managing the data.
 - **Tableau**: For data visualization and dashboard creation.
 
+## Methodology
 ## Data Cleaning and Preparation
 The dataset underwent several cleaning steps to ensure accuracy and consistency:
 - **Duplicate Removal**: Identified and removed duplicate records.
@@ -87,9 +90,8 @@ This analysis has some limitations:
 - **Assumptions**: Certain assumptions were made during data cleaning and analysis that may impact the results.
 - **External Factors**: Economic conditions and external factors were not considered, which may influence loan performance.
 
-### Contact
-
-Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/codystoerck/).
+## Contact
+- **Cody Stoerck**: [LinkedIn](https://www.linkedin.com/in/codystoerck/) | cstoerck@gmail.com
 
 ---
 
