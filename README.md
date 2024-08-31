@@ -51,20 +51,20 @@ The dataset used in this project includes the following columns:
 - **Tableau**: For data visualization and dashboard creation.
 
 ## Methodology
-## Data Cleaning and Preparation
+#### Data Cleaning and Preparation
 The dataset underwent several cleaning steps to ensure accuracy and consistency:
 - **Duplicate Removal**: Identified and removed duplicate records.
 - **Missing Values**: Handled missing data by using appropriate imputation techniques or removing incomplete records.
 - **Standardization**: Standardized categorical variables and converted dates to a consistent format.
 - **Derived Metrics**: Calculated additional metrics such as total funded amount and total received amount.
 
-## Exploratory Data Analysis
+#### Exploratory Data Analysis
 During the EDA phase, the data was thoroughly examined to identify patterns, trends, and relationships between variables:
 - **Distribution Analysis**: Analyzed the distribution of loan amounts, interest rates, and DTI ratios.
 - **Correlation Analysis**: Investigated the correlation between variables like employment length, home ownership, and grade on loan status.
 - **Trend Visualization**: Visualized time-based trends in loan issuance, payments, and defaults.
 
-## Data Analysis
+#### Data Analysis
 The analysis focused on evaluating key performance indicators:
 - **Total Loan Applications**: Counted all loan applications in the dataset.
 - **Total Funded Amount**: Summed the funded loan amounts.
