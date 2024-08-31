@@ -3,7 +3,7 @@
 ## Table of Contents
 
 - [Project Overview](#project-overview)
-- [Data Sources](#data-sources)
+- [Data Overview](#data-overview)
 - [Tools Used](#tools-used)
 - [Methodology](#methodology)
   - [Data Cleaning and Preparation](#data-cleaning-and-preparation)
@@ -20,7 +20,7 @@ This project analyzes a bank's loan portfolio to gain insights into key financia
 [<img src="bank-loan-dashboard-preview.JPG">](https://public.tableau.com/app/profile/cody.stoerck/viz/BankLoanAnalysisDashboard_17091319168180/SUMMARY)
 Click image to view visualization
 
-## Data Sources
+## Data Overview
 The dataset used in this project includes the following columns:
 
 - **address_state**: State where the borrower resides
