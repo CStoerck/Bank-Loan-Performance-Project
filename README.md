@@ -65,6 +65,15 @@ Data cleaning and preparation were performed in Excel, ensuring the dataset was 
 #### Exploratory Data Analysis
 EDA was conducted to uncover trends, patterns, and key insights. The focus areas included:
 - **Loan Applications:** Analysis of application trends over time and across states.
+```
+--Month to Date Loan Applications
+SELECT COUNT(id) AS MTD_Total_Loan_Applications FROM bank_loan_data
+WHERE MONTH(issue_date) = 12 AND YEAR(issue_date) = 2021
+
+--Previous Month to Date Loan Applications
+SELECT COUNT(id) AS PMTD_Total_Loan_Applications FROM bank_loan_data
+WHERE MONTH(issue_date) = 11 AND YEAR(issue_date) = 2021
+```
 - **Funded Amount vs. Received Amount:** Assessing the bank’s liquidity and loan performance.
 - **Loan Grade:** Examining borrower financial health and its affect on loan performance.
 - **Loan Categorization:** Segmenting loans into 'Good' and 'Bad' based on repayment status.
