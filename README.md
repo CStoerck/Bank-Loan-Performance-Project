@@ -63,7 +63,7 @@ Data cleaning and preparation were performed in Excel, ensuring the dataset was 
 EDA was conducted to uncover trends, patterns, and key insights. The focus areas included:
 - **Loan Applications:** Analysis of application trends over time and across states.
 - **Funded Amount vs. Received Amount:** Assessing the bank’s liquidity and loan performance.
-- **Interest Rate and DTI:** Examining borrower financial health and risk.
+- **Loan Grade:** Examining borrower financial health and its affect on loan performance.
 - **Loan Categorization:** Segmenting loans into 'Good' and 'Bad' based on repayment status.
 
 #### Dashboard Components
@@ -78,8 +78,8 @@ EDA was conducted to uncover trends, patterns, and key insights. The focus areas
 
 ## Results
 The analysis revealed crucial insights into loan application trends, funding patterns, and repayment behaviors. Key findings include:
-- Seasonal trends in loan applications.
-- Geographical disparities in loan funding and approval rates.
+- Seasonal trends in loan applications with the end of the year exhibiting more loan applications.
+- Geographical disparities in loan funding and approval rates. States with larger populations naturally have more loan applications and funded amounts.
 - The impact of DTI and interest rates on loan performance.
 
 ## Recommendations
