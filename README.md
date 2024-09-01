@@ -8,8 +8,9 @@
 - [Methodology](#methodology)
   - [Data Cleaning and Preparation](#data-cleaning-and-preparation)
   - [Exploratory Data Analysis](#exploratory-data-analysis)
-  - [Data Analysis](#data-analysis)
-- [Results and Findings](#results-and-findings)
+  - [Dashboard Components](#dashboard-components)
+- [Key Metrics and Findings](#key-metrics-and-findings)
+- [Results](#results)
 - [Recommendations](#recommendations)
 - [Limitations](#limitations)
 - [Contact](#contact)
@@ -17,8 +18,7 @@
 ## Project Overview
 This project analyzes a bank's loan portfolio to gain insights into key financial metrics and assess the risk associated with different loans. The primary KPIs analyzed are total loan applications, total funded amount, total received amount, average interest rate, and average debt-to-income ratio (DTI). The analysis aims to provide actionable recommendations for improving loan management and decision-making.
 
-[<img src="bank-loan-dashboard-preview.JPG">](https://public.tableau.com/app/profile/cody.stoerck/viz/BankLoanAnalysisDashboard_17091319168180/SUMMARY)
-Click image to view visualization
+<img src="bank-loan-dashboard-preview.JPG">
 
 ## Data Overview
 The dataset used in this project includes the following columns:
@@ -52,43 +52,45 @@ The dataset used in this project includes the following columns:
 
 ## Methodology
 #### Data Cleaning and Preparation
-The dataset underwent several cleaning steps to ensure accuracy and consistency:
-- **Duplicate Removal**: Identified and removed duplicate records.
-- **Missing Values**: Handled missing data by using appropriate imputation techniques or removing incomplete records.
-- **Standardization**: Standardized categorical variables and converted dates to a consistent format.
-- **Derived Metrics**: Calculated additional metrics such as total funded amount and total received amount.
+Data cleaning and preparation were performed in Excel, ensuring the dataset was free of inconsistencies and missing values. This step involved:
+- Validating data integrity.
+- Removing duplicate values.
+- Normalizing data formats.
+- Filtering out irrelevant records.
+- Preparing the dataset for analysis and visualization.
 
 #### Exploratory Data Analysis
-During the EDA phase, the data was thoroughly examined to identify patterns, trends, and relationships between variables:
-- **Distribution Analysis**: Analyzed the distribution of loan amounts, interest rates, and DTI ratios.
-- **Correlation Analysis**: Investigated the correlation between variables like employment length, home ownership, and grade on loan status.
-- **Trend Visualization**: Visualized time-based trends in loan issuance, payments, and defaults.
+EDA was conducted to uncover trends, patterns, and key insights. The focus areas included:
+- **Loan Applications:** Analysis of application trends over time and across states.
+- **Funded Amount vs. Received Amount:** Assessing the bank’s liquidity and loan performance.
+- **Interest Rate and DTI:** Examining borrower financial health and risk.
+- **Loan Categorization:** Segmenting loans into 'Good' and 'Bad' based on repayment status.
 
-#### Data Analysis
-The analysis focused on evaluating key performance indicators:
-- **Total Loan Applications**: Counted all loan applications in the dataset.
-- **Total Funded Amount**: Summed the funded loan amounts.
-- **Total Received Amount**: Calculated the total amount received by the bank through repayments.
-- **Average Interest Rate**: Computed the mean interest rate across all loans.
-- **Average Debt-to-Income Ratio (DTI)**: Calculated the average DTI ratio for all borrowers.
+#### Dashboard Components
+- **Interactive Filters:** Explore data by various dimensions, such as loan status, purpose, and geographical location.
+- **Advanced Visualizations:** Uncover complex relationships and trends within the loan portfolio.
 
-## Results and Findings
-Key insights from the analysis include:
-- **High-Risk Loans**: Loans with higher interest rates and lower grades showed a higher default rate.
-- **Geographical Trends**: Certain states exhibited higher loan application volumes and lower default rates, indicating regional differences in loan performance.
-- **Income vs. Loan Amount**: Borrowers with higher annual incomes tend to secure larger loan amounts but at lower interest rates.
+## Key Metrics and Insights
+- **Total Loan Applications:** Insights into monthly application trends.
+- **Total Funded Amount vs. Received Amount:** Identification of discrepancies in loan funding and actual repayment.
+- **Average Interest Rate and DTI:** Assessment of borrowers' ability to manage debt.
+- **Loan Categorization:** Classification of loans into performing and non-performing, highlighting potential risks.
+
+## Results
+The analysis revealed crucial insights into loan application trends, funding patterns, and repayment behaviors. Key findings include:
+- Seasonal trends in loan applications.
+- Geographical disparities in loan funding and approval rates.
+- The impact of DTI and interest rates on loan performance.
 
 ## Recommendations
 Based on the analysis, the following recommendations are made:
-- **Tighten Loan Approval Criteria**: Consider stricter approval criteria for loans with higher interest rates and lower grades to reduce default risk.
-- **Focus on High-Performing Regions**: Expand marketing efforts in states with lower default rates to capitalize on regional strengths.
-- **Customized Loan Products**: Develop tailored loan products for high-income borrowers with competitive interest rates to attract more business.
+- **Optimize Loan Terms:** Tailor loan offerings based on borrower profiles to minimize defaults.
+- **Enhance Risk Management:** Focus on improving the accuracy of credit risk assessments.
+- **Targeted Marketing:** Use geographic and demographic insights to develop more effective loan products.
 
 ## Limitations
-This analysis has some limitations:
-- **Dataset Limitations**: The dataset may not fully represent all loan types or regions, potentially biasing the analysis.
-- **Assumptions**: Certain assumptions were made during data cleaning and analysis that may impact the results.
-- **External Factors**: Economic conditions and external factors were not considered, which may influence loan performance.
+- The analysis is based on historical data, which may not fully predict future trends.
+- Certain data fields may have inherent biases, affecting the accuracy of insights.
 
 ## Contact
 - **Cody Stoerck**: [LinkedIn](https://www.linkedin.com/in/codystoerck/) | cstoerck@gmail.com
