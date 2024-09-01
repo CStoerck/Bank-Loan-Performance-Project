@@ -20,6 +20,9 @@ This project analyzes a bank's loan portfolio to gain insights into key financia
 
 ![bank-loan-dashboard-preview](https://github.com/user-attachments/assets/ccaf7eab-4467-4edc-bb4b-498f3c775569)
 
+[**Link to SQL code**](https://github.com/CStoerck/Bank-Loan-Performance-Project/blob/bfc04ab6907349108c4d0c113e2a5dde88b5f8a4/Bank%20Loan%20Report%20SQL%20Queries.sql)
+[**Link to visualization**](https://public.tableau.com/app/profile/cody.stoerck/viz/BankLoanAnalysisDashboard_17091319168180/SUMMARY)
+
 ## Data Overview
 The dataset used in this project includes the following columns:
 
@@ -97,5 +100,6 @@ Based on the analysis, the following recommendations are made:
 
 ---
 
+[**Link to SQL code**](https://github.com/CStoerck/Bank-Loan-Performance-Project/blob/bfc04ab6907349108c4d0c113e2a5dde88b5f8a4/Bank%20Loan%20Report%20SQL%20Queries.sql)
 [**Link to visualization**](https://public.tableau.com/app/profile/cody.stoerck/viz/BankLoanAnalysisDashboard_17091319168180/SUMMARY)
 
